@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root{
+    @apply text-xl;
+}
+
+.container {
+    @apply p-2.5;
+    @apply bg-gradient-to-b from-gray-700 to-black;
+}
+
+.btn {
+    @apply rounded-md px-3 py-1 my-1;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.btn-green {
+    @apply bg-green-500 text-white hover:bg-green-600;
+}
+
+.btn-red {
+    @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+.container-item {
+    @apply bg-gray-500;
+    @apply rounded-xl;
+    @apply p-4;
+    @apply text-white;
+}
